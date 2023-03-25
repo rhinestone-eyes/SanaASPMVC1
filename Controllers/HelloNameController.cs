@@ -10,7 +10,7 @@ public class HelloNameController : Controller
     {
         return View();
     }
-    public IActionResult Greetings(helloName userName)
+    public IActionResult Greetings(NameModel userName)
     {
         return View(userName);
     }

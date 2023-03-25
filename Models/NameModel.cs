@@ -1,6 +1,6 @@
 ﻿namespace HelloName.Models
 {
-    public class helloName
+    public class NameModel
     {
         public string Name{ get; set; }
     }
